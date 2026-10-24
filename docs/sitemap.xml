@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://example.github.io/mksite/about.html</loc>
+    <loc>https://chenjie-prog.github.io/mksite/about.html</loc>
     <lastmod>2026-10-24</lastmod>
   </url>
   <url>
-    <loc>https://example.github.io/mksite/index.html</loc>
+    <loc>https://chenjie-prog.github.io/mksite/index.html</loc>
     <lastmod>2026-10-24</lastmod>
   </url>
   <url>
-    <loc>https://example.github.io/mksite/posts/hello-mksite.html</loc>
+    <loc>https://chenjie-prog.github.io/mksite/posts/hello-mksite.html</loc>
     <lastmod>2026-10-20</lastmod>
   </url>
   <url>
-    <loc>https://example.github.io/mksite/posts/markdown-showcase.html</loc>
+    <loc>https://chenjie-prog.github.io/mksite/posts/markdown-showcase.html</loc>
     <lastmod>2026-10-24</lastmod>
   </url>
 </urlset>

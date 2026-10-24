@@ -19,7 +19,7 @@ description: 一个用 mksite 搭建的极简博客示例 —— 零依赖的纯
 ## 快速开始
 
 ```bash
-pip install git+https://github.com/USER/mksite.git
+pip install git+https://github.com/Chenjie-Prog/mksite.git
 
 mksite init myblog     # 初始化站点
 mksite serve -s myblog # 本地预览 http://127.0.0.1:8000

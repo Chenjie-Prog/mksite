@@ -4,12 +4,12 @@
 
 **一个零依赖的静态站点生成器 —— 纯 Python 标准库实现**
 
-[![Tests](https://github.com/USER/mksite/actions/workflows/ci.yml/badge.svg)](https://github.com/USER/mksite/actions/workflows/ci.yml)
+[![Tests](https://github.com/Chenjie-Prog/mksite/actions/workflows/ci.yml/badge.svg)](https://github.com/Chenjie-Prog/mksite/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![PyPI](https://img.shields.io/badge/dependencies-0-brightgreen)](#为什么选择-mksite)
 
-[在线示例](https://USER.github.io/mksite/) · [English](README.en.md)
+[在线示例](https://Chenjie-Prog.github.io/mksite/) · [English](README.en.md)
 
 ![mksite 默认主题预览](assets/screenshot.png)
 
@@ -33,10 +33,10 @@
 
 ```bash
 # 从 GitHub 安装
-pip install git+https://github.com/USER/mksite.git
+pip install git+https://github.com/Chenjie-Prog/mksite.git
 
 # 或者不安装，直接用仓库源码运行
-git clone https://github.com/USER/mksite.git
+git clone https://github.com/Chenjie-Prog/mksite.git
 cd mksite
 python -m mksite --help
 ```

@@ -2,20 +2,20 @@
 <rss version="2.0">
 <channel>
   <title>mksite 示例博客</title>
-  <link>https://example.github.io/mksite</link>
+  <link>https://chenjie-prog.github.io/mksite</link>
   <description>mksite 示例博客</description>
   <generator>mksite 0.1.0</generator>
 <item>
     <title>Markdown 语法一览</title>
-    <link>https://example.github.io/mksite/posts/markdown-showcase.html</link>
-    <guid>https://example.github.io/mksite/posts/markdown-showcase.html</guid>
+    <link>https://chenjie-prog.github.io/mksite/posts/markdown-showcase.html</link>
+    <guid>https://chenjie-prog.github.io/mksite/posts/markdown-showcase.html</guid>
     <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
     <description>mksite 内置 Markdown 引擎支持的全部语法示例。</description>
 </item>
 <item>
     <title>为什么写一个零依赖的静态站点生成器</title>
-    <link>https://example.github.io/mksite/posts/hello-mksite.html</link>
-    <guid>https://example.github.io/mksite/posts/hello-mksite.html</guid>
+    <link>https://chenjie-prog.github.io/mksite/posts/hello-mksite.html</link>
+    <guid>https://chenjie-prog.github.io/mksite/posts/hello-mksite.html</guid>
     <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
     <description>造轮子的理由，以及 mksite 的设计取舍。</description>
 </item>

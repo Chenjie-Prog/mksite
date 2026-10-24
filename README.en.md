@@ -4,12 +4,12 @@
 
 **A zero-dependency static site generator — built entirely on the Python standard library**
 
-[![Tests](https://github.com/USER/mksite/actions/workflows/ci.yml/badge.svg)](https://github.com/USER/mksite/actions/workflows/ci.yml)
+[![Tests](https://github.com/Chenjie-Prog/mksite/actions/workflows/ci.yml/badge.svg)](https://github.com/Chenjie-Prog/mksite/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![PyPI](https://img.shields.io/badge/dependencies-0-brightgreen)](#why-mksite)
 
-[Live demo](https://USER.github.io/mksite/) · [中文文档](README.md)
+[Live demo](https://Chenjie-Prog.github.io/mksite/) · [中文文档](README.md)
 
 </div>
 
@@ -35,10 +35,10 @@ Requires Python 3.9+. That's the whole story.
 
 ```bash
 # Install from GitHub
-pip install git+https://github.com/USER/mksite.git
+pip install git+https://github.com/Chenjie-Prog/mksite.git
 
 # Or run straight from a clone, no install needed
-git clone https://github.com/USER/mksite.git
+git clone https://github.com/Chenjie-Prog/mksite.git
 cd mksite
 python -m mksite --help
 ```

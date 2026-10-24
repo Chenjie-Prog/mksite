@@ -29,9 +29,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/USER/mksite"
-Repository = "https://github.com/USER/mksite"
-Issues = "https://github.com/USER/mksite/issues"
+Homepage = "https://github.com/Chenjie-Prog/mksite"
+Repository = "https://github.com/Chenjie-Prog/mksite"
+Issues = "https://github.com/Chenjie-Prog/mksite/issues"
 
 [project.scripts]
 mksite = "mksite.cli:main"

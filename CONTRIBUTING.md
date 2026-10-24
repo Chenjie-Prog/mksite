@@ -6,7 +6,7 @@
 ## 开发流程
 
 ```bash
-git clone https://github.com/USER/mksite.git
+git clone https://github.com/Chenjie-Prog/mksite.git
 cd mksite
 python -m unittest discover -s tests   # 全部测试应通过
 ```

@@ -45,7 +45,7 @@ mksite 的依赖清单是**零**。只要有 Python 3.9+，它就能跑。
 ## 试一试
 
 ```bash
-git clone https://github.com/USER/mksite.git
+git clone https://github.com/Chenjie-Prog/mksite.git
 cd mksite
 python -m mksite serve -s example -p 8000
 ```

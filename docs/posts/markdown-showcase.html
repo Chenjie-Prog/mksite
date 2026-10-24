@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Markdown 语法一览 · mksite 示例博客</title>
+  <meta name="description" content="mksite 内置 Markdown 引擎支持的全部语法示例。">
+  <meta name="generator" content="mksite">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <a class="site-title" href="../">mksite 示例博客</a>
+    <nav>
+      <a href="../">首页</a>
+      <a href="../about.html">关于</a>
+    </nav>
+  </header>
+  <main>
+<h1 id="markdown-语法一览">Markdown 语法一览</h1>
+<p>这篇文章覆盖 mksite 内置引擎支持的所有语法，可以直接当写作模板用。</p>
+<h2 id="行内元素">行内元素</h2>
+<p><strong>粗体</strong>、<em>斜体</em>、<code>行内代码</code>、<del>删除线</del>，以及<a href="https://www.python.org">链接</a>
+和图片 <code>![alt](src)</code>。HTML 会被自动转义：<code>&lt;script&gt;</code> 永远不会被执行。</p>
+<h2 id="引用">引用</h2>
+<blockquote>
+<p>零依赖意味着：一个 Python 解释器 + 一个包，就是全部运行环境。</p>
+<blockquote>
+<p>嵌套引用也没问题。</p>
+</blockquote>
+</blockquote>
+<h2 id="列表">列表</h2>
+<p>无序列表支持嵌套：</p>
+<ul>
+<li>静态站点生成
+<ul>
+<li>Markdown 渲染</li>
+<li>模板变量</li>
+</ul></li>
+<li>开发服务器</li>
+<li>RSS / sitemap</li>
+</ul>
+<p>有序列表（起始编号不是 1 也可以）：</p>
+<ol start="3">
+<li>第三名</li>
+<li>第四名</li>
+</ol>
+<h2 id="代码块">代码块</h2>
+<pre><code class="language-python">from mksite.markdown import md_to_html
+
+html = md_to_html("# Hello, **mksite**!")
+print(html)  # &lt;h1 id="hello-mksite"&gt;Hello, &lt;strong&gt;mksite&lt;/strong&gt;!&lt;/h1&gt;</code></pre>
+<p>表格支持按列对齐：</p>
+<table>
+<thead>
+<tr><th style="text-align:left">命令</th><th style="text-align:center">作用</th><th style="text-align:right">备注</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:left"><code>mksite init</code></td><td style="text-align:center">初始化站点</td><td style="text-align:right">必备</td></tr>
+<tr><td style="text-align:left"><code>mksite build</code></td><td style="text-align:center">构建静态文件</td><td style="text-align:right">必备</td></tr>
+<tr><td style="text-align:left"><code>mksite serve</code></td><td style="text-align:center">本地预览</td><td style="text-align:right">可选</td></tr>
+<tr><td style="text-align:left"><code>mksite new</code></td><td style="text-align:center">新建文章</td><td style="text-align:right">可选</td></tr>
+</tbody>
+</table>
+<hr>
+<p>水平线之上是分割线语法 <code>---</code>。标题会自动生成锚点 id，
+比如 <a href="#代码块">这个链接</a> 可以跳转到「代码块」一节。</p>
+  </main>
+  <footer>
+    <p>由 <a href="https://github.com/USER/mksite">mksite</a> 生成 —— 零依赖的纯 Python 静态站点生成器 ·
+       <a href="../feed.xml">RSS 订阅</a></p>
+  </footer>
+</body>
+</html>

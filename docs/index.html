@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>首页 · mksite 示例博客</title>
+  <meta name="description" content="一个用 mksite 搭建的极简博客示例 —— 零依赖的纯 Python 静态站点生成器。">
+  <meta name="generator" content="mksite">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <a class="site-title" href="./">mksite 示例博客</a>
+    <nav>
+      <a href="./">首页</a>
+      <a href="./about.html">关于</a>
+    </nav>
+  </header>
+  <main>
+<h1 id="你好这里是-mksite-示例博客">你好，这里是 mksite 示例博客</h1>
+<p>这个站点由 <strong>mksite</strong> 生成：整个工具只用 Python 标准库实现，没有
+<code>pip install</code>，没有 node_modules，把一个包拷进项目就能用。</p>
+<h2 id="特性">特性</h2>
+<ul>
+<li>零依赖 —— 纯 Python 标准库，支持 Python 3.9+</li>
+<li>内置 Markdown 引擎（标题、表格、代码块、引用、嵌套列表……）</li>
+<li>自动生成 RSS 订阅与 sitemap</li>
+<li>开发服务器带文件监听，保存即重建</li>
+<li>单个页面模板 + <code>{{ 变量 }}</code> 占位符，主题就是一个 HTML 文件</li>
+</ul>
+<h2 id="快速开始">快速开始</h2>
+<pre><code class="language-bash">pip install git+https://github.com/USER/mksite.git
+
+mksite init myblog     # 初始化站点
+mksite serve -s myblog # 本地预览 http://127.0.0.1:8000
+mksite build -s myblog # 构建到 myblog/public/</code></pre>
+<h2 id="文章">文章</h2>
+<ul>
+<li><a href="posts/markdown-showcase.html">Markdown 语法一览</a> —— 引擎支持的所有语法</li>
+<li><a href="posts/hello-mksite.html">为什么写一个零依赖的静态站点生成器</a></li>
+</ul>
+<blockquote>
+<p>提示：这个目录（<code>example/</code>）本身就是一份可运行的站点源码，
+仓库里的 <code>docs/</code> 是它构建出的成品，可以直接用 GitHub Pages 部署。</p>
+</blockquote>
+  </main>
+  <footer>
+    <p>由 <a href="https://github.com/USER/mksite">mksite</a> 生成 —— 零依赖的纯 Python 静态站点生成器 ·
+       <a href="./feed.xml">RSS 订阅</a></p>
+  </footer>
+</body>
+</html>

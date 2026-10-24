@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ language }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} · {{ name }}</title>
+  <meta name="description" content="{{ description }}">
+  <meta name="generator" content="mksite">
+  <link rel="stylesheet" href="{{ root }}/style.css">
+</head>
+<body>
+  <header>
+    <a class="site-title" href="{{ root }}/">{{ name }}</a>
+    <nav>
+      <a href="{{ root }}/">首页</a>
+      <a href="{{ root }}/about.html">关于</a>
+    </nav>
+  </header>
+  <main>
+{{ content }}
+  </main>
+  <footer>
+    <p>由 <a href="https://github.com/USER/mksite">mksite</a> 生成 —— 零依赖的纯 Python 静态站点生成器 ·
+       <a href="{{ root }}/feed.xml">RSS 订阅</a></p>
+  </footer>
+</body>
+</html>
